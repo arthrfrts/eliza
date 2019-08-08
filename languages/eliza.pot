@@ -1,0 +1,246 @@
+# Copyright (C) 2018 Arthur Freitas
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Eliza 1.0.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/eliza\n"
+"POT-Creation-Date: 2018-04-09 16:58:51+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:13
+msgid "Not Found."
+msgstr ""
+
+#: 404.php:16
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+
+#: comments.php:23
+msgid "Comments"
+msgstr ""
+
+#: comments.php:38
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:32
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:33
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:76
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:78
+msgid "The main sidebar for the theme, shown in the side of every page."
+msgstr ""
+
+#: functions.php:86
+msgid "Post Widget"
+msgstr ""
+
+#: functions.php:88
+msgid ""
+"A widget area shown after the posts, if the comments are disabled. It's a "
+"great place to add a contact link!"
+msgstr ""
+
+#: header.php:17
+msgid "Skip to content"
+msgstr ""
+
+#: includes/footer/site-credits.php:4
+msgid "Semantic Tool for Personal Publication"
+msgstr ""
+
+#: includes/footer/site-credits.php:4
+msgid "WordPress"
+msgstr ""
+
+#: includes/footer/site-credits.php:6
+msgid "Powered by %1$s."
+msgstr ""
+
+#: includes/footer/site-credits.php:10
+msgid "Front-end developer and WordPress consultant"
+msgstr ""
+
+#: includes/footer/site-credits.php:12
+msgid "Made by %1$s."
+msgstr ""
+
+#: includes/functions/template-tags.php:55
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: includes/functions/template-tags.php:69
+#: includes/functions/template-tags.php:71
+msgctxt "Used as list item separator. There is an space after the comma."
+msgid ", "
+msgstr ""
+
+#: includes/functions/template-tags.php:75
+msgctxt "Categories (1) and tags (2) assigned to the current post."
+msgid "Posted in %1$s and tagged with %2$s."
+msgstr ""
+
+#: includes/functions/template-tags.php:82
+msgctxt "Tags assigned to the current post."
+msgid "Tagged with %1$s."
+msgstr ""
+
+#: includes/functions/template-tags.php:88
+msgctxt "Categories assigned to the current post."
+msgid "Posted in %1$s."
+msgstr ""
+
+#: includes/functions/template-tags.php:101
+msgid "Leave a comment <span class=\"assistive-text\">on %s</span>"
+msgstr ""
+
+#: includes/functions/template-tags.php:114
+msgid "(Edit Post)"
+msgstr ""
+
+#: includes/functions/widgets.php:8
+msgid "In This Section"
+msgstr ""
+
+#: includes/functions/widgets.php:11
+msgid "Display a list of subcategories in the Category archive pages."
+msgstr ""
+
+#: includes/functions/widgets.php:66 includes/functions/widgets.php:200
+msgid "Title:"
+msgstr ""
+
+#: includes/functions/widgets.php:85
+msgid "Posts from Category"
+msgstr ""
+
+#: includes/functions/widgets.php:88
+msgid "Use this widget to show an specific number of posts from a category."
+msgstr ""
+
+#: includes/functions/widgets.php:169
+msgid "More on %s"
+msgstr ""
+
+#: includes/functions/widgets.php:212
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/functions/widgets.php:224
+msgid "Category to show:"
+msgstr ""
+
+#: includes/header/navigation-main-menu.php:8
+msgid "Menu"
+msgstr ""
+
+#: includes/post/content-attachment.php:20
+msgctxt "1: post date, 2: post title, 3: image original dimensions"
+msgid ""
+"This image was posted on %1$s at &ldquo;%2$s&rdquo;. The full image is %3$s."
+msgstr ""
+
+#: includes/post/content-none.php:4
+msgid "Nothing Found"
+msgstr ""
+
+#: includes/post/content-none.php:18
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: includes/post/content-none.php:32
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: includes/post/content-none.php:37
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: includes/post/content-page.php:17 includes/post/content.php:32
+msgid "Pages:"
+msgstr ""
+
+#: includes/post/content.php:6
+msgid "Featured"
+msgstr ""
+
+#: includes/post/content.php:29
+msgid "Continue reading&hellip;"
+msgstr ""
+
+#: includes/sidebar/default-widgets.php:6
+#: templates/archives-page-template.php:34
+msgid "Archives"
+msgstr ""
+
+#: includes/sidebar/default-widgets.php:13
+msgid "Meta"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:15
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:9
+msgid "Search"
+msgstr ""
+
+#: searchform.php:15
+msgid "Type and hit enter"
+msgstr ""
+
+#: templates/archives-page-template.php:23
+msgid "Categories"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Eliza"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://arthr.me/themes/eliza/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Eliza, named after that famous psychoterapist, let's you create a magazine "
+"website with a clean and modern design. Eliza comes with two custom widgets, "
+"In This Section, which lists subcategories in the category archive pages; "
+"and Posts from Category, which shows the latest posts from a specific "
+"category. Make it yours with a custom logo, two widget areas and a custom "
+"menu."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Arthur Freitas"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://arthr.me/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Archive Template"
+msgstr ""

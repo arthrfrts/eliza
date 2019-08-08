@@ -1,0 +1,336 @@
+body {
+  background-color: $color-background;
+  color: $color-text;
+  font: $font-weight-base #{$font-size-base}/#{$font-line-height} $font-family-main;
+}
+
+/*
+    Text Elements
+*/
+p, ul, ol, dl,
+blockquote, pre,
+address, table,
+figure, video, audio {
+  margin-bottom: $spacing-unit;
+}
+
+em, i, address {
+  font-style: italic;
+}
+
+strong, b, dt {
+  font-weight: 700;
+}
+
+abbr,
+acronym {
+  border-bottom: .2rem dotted $color-grey;
+  cursor: help;
+}
+
+cite {
+  color: darken($color-grey, 25%);
+}
+
+del, s {
+  text-decoration: line-through solid $color-accent;
+  -webkit-text-decoration-style: solid;
+  -webkit-text-decoration-color: $color-accent;
+}
+
+ins, u {
+  text-decoration: underline solid $color-accent;
+  -webkit-text-decoration-style: solid;
+  -webkit-text-decoration-color: $color-accent;
+}
+
+hr {
+  height: .2rem;
+  background-color: $color-grey;
+  border: none;
+  margin: $spacing-unit;
+}
+
+big {
+  font-size: 125%;
+}
+
+small {
+  font-size: 75%;
+}
+
+sub, sup {
+  font-size: 60%;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+q {
+  quotes: "“" "”" "‘" "’";
+
+  &:before {
+    content: open-quote;
+  }
+
+  &:after {
+    content: close-quote;
+  }
+}
+
+// Links
+a,
+a:visited {
+  color: $color-accent;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $color-text;
+  }
+}
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.entry-content {
+  h1, h2, h3,
+  h4, h5, h6 {
+    margin-top: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 4;
+  }
+}
+
+h1 {
+  font-size: calc(#{$font-size-base} * 2.25);
+}
+
+h2 {
+  font-size: calc(#{$font-size-base} * 2);
+}
+
+h3 {
+  font-size: calc(#{$font-size-base} * 1.75);
+}
+
+h4 {
+  font-size: calc(#{$font-size-base} * 1.5);
+}
+
+h5 {
+  font-size: calc(#{$font-size-base} * 1.25);
+}
+
+h6 {
+  font-size: $font-size-base;
+}
+
+// Blockquotes
+blockquote {
+  border-left: .3rem solid $color-grey;
+  padding-top: $spacing-unit / 2;
+  padding-bottom: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+  font-style: italic;
+  color: darken($color-grey, 25%);
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Tables
+table {
+  max-width: 100%;
+
+  th,
+  td {
+    border-bottom: .2rem solid $color-grey;
+    padding: $spacing-unit / 4;
+  }
+
+  th {
+    text-align: center;
+    font-weight: 700;
+  }
+
+  td {
+    text-align: left;
+  }
+}
+
+// Lists
+dl, ul, ol {
+  margin-left: $spacing-unit;
+}
+
+dl {
+  dd {
+    margin-bottom: $spacing-unit / 2;
+  }
+}
+
+ul {
+  list-style: disc;
+
+  ul {
+    list-style: square;
+
+    ul {
+      list-style: circle;
+    }
+  }
+}
+
+ol {
+  list-style: decimal;
+
+  ol {
+    list-style: lower-alpha;
+
+    ol {
+      list-style: lower-roman;
+    }
+  }
+}
+
+ul, ol {
+  ul, ol {
+    margin-bottom: 0;
+  }
+}
+
+// Figures, media and embeds.
+.wp-caption .wp-caption-text,
+.gallery-caption {
+  font-size: $font-size-small;
+  font-style: italic;
+  color: darken($color-grey, 20%);
+}
+
+figure, iframe, object {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Alignment.
+.alignleft,
+.alignright,
+.aligncenter {
+  margin-bottom: $spacing-unit / 4;
+}
+
+.alignleft {
+  float: left;
+  text-align: left;
+  margin-right: $spacing-unit / 4;
+}
+
+.alignright {
+  float: right;
+  text-align: right;
+  margin-left: $spacing-unit / 4;
+}
+
+.aligncenter {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+// Code and pre-formatted text
+pre, code, kbd, var {
+  font: 400 #{$font-size-base}/#{$font-line-height} $font-family-mono;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  text-align: justify;
+}
+
+/*
+    Forms
+*/
+input,
+textarea,
+select {
+  outline: none;
+  background: #ffffff;
+  border-radius: .3rem;
+  box-shadow: inset -.3rem .3rem .7rem -.3rem rgba($color-grey, .7);
+  border: .1rem solid $color-grey;
+  font: 400 #{$font-size-small}/#{1.5} $font-family-main;
+  padding: $spacing-unit / 4;
+}
+
+input {
+  -webkit-appearance: initial;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: initial;
+  background: $color-accent;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font: 700 #{75%}/#{1} $font-family-main;
+  padding: $spacing-unit / 4;
+  box-shadow: none;
+  cursor: pointer;
+  border: .1rem solid $color-grey;
+
+  &:hover,
+  &:focus {
+    border-color: $color-text;
+  }
+}
+
+label {
+  font: 700 #{$font-size-small}/#{1.2} $font-family-main;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: block;
+}
+
+.search-form {
+  label {
+    display: inline-block;
+    max-width: 60%;
+
+    input {
+      vertical-align: middle;
+      padding: 0.5rem;
+    }
+  }
+
+  .search-submit {
+    max-width: 40%;
+  }
+}
+
+input, select {
+  max-width: 100%;
+}

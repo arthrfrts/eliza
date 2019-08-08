@@ -1,0 +1,68 @@
+/*
+    Custom font families.
+*/
+// Nunito Sans
+@font-face {
+  font-family: 'nunito sans';
+  src: url("assets/fonts/nunitosans-400.woff2") format("woff2"),
+       url("assets/fonts/nunitosans-400.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nunito sans';
+  src: url("assets/fonts/nunitosans-400i.woff2") format("woff2"),
+       url("assets/fonts/nunitosans-400i.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'nunito sans';
+  src: url("assets/fonts/nunitosans-700.woff2") format("woff2"),
+       url("assets/fonts/nunitosans-700.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nunito sans';
+  src: url("assets/fonts/nunitosans-700i.woff2") format("woff2"),
+       url("assets/fonts/nunitosans-700i.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'nunito sans';
+  src: url("assets/fonts/nunitosans-300.woff2") format("woff2"),
+       url("assets/fonts/nunitosans-300.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nunito sans';
+  src: url("assets/fonts/nunitosans-300i.woff2") format("woff2"),
+       url("assets/fonts/nunitosans-300i.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+// Inconsolata
+@font-face {
+  font-family: inconsolata;
+  src: url("assets/fonts/inconsolata-400.woff2") format("woff2"),
+       url("assets/fonts/inconsolata-400.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: inconsolata;
+  src: url("assets/fonts/inconsolata-700.woff2") format("woff2"),
+       url("assets/fonts/inconsolata-700.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}

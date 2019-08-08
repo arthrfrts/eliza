@@ -1,0 +1,36 @@
+/*
+Theme Name: Eliza
+Theme URI: https://arthr.me/themes/eliza/
+Author: Arthur Freitas
+Author URI: https://arthr.me/
+Description: Eliza, named after that famous psychoterapist, let's you create a magazine website with a clean and modern design. Eliza comes with two custom widgets, In This Section, which lists subcategories in the category archive pages; and Posts from Category, which shows the latest posts from a specific category. Make it yours with a custom logo, two widget areas and a custom menu.
+Version: 1.0.8
+License: GNU General Public License
+License URI: LICENSE
+Text Domain: eliza
+Tags: blog, news, two-columns, right-sidebar, custom-logo, custom-menu, featured-images, sticky-post, theme-options, translation-ready
+*/
+
+$font-family-main: 'nunito sans', sans-serif;
+$font-family-mono: inconsolata, monospace;
+$font-size-base: 1.6rem;
+$font-size-small: $font-size-base * 0.75;
+$font-line-height: 1.5;
+$font-weight-base: 400;
+
+$color-text: #1A1A1A;
+$color-background: #F0F0F0;
+$color-accent: #AD5B5B;
+$color-details: #FFFFFF;
+$color-grey: #D1D1D1;
+
+$container-width: 1280px;
+$content-width: 600px;
+$spacing-unit: 3rem;
+$palm-width: 800px;
+
+@import "mixins",
+        "fonts",
+        "reset",
+        "elements",
+        "layout";
